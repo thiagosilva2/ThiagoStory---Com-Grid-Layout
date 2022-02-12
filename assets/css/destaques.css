@@ -1,0 +1,42 @@
+h3 {
+  color: #ffffff;
+}
+.destaques {
+  display: grid;
+  grid-template-columns: repeat(4 , 1fr);
+  grid-template-rows: repeat(3 , 1fr);
+  height: calc(100vh - 50px);
+ 
+}
+
+.destaques__principal {
+background: url('../img/league-of-legends-wild-rift.jpg') center / cover no-repeat;
+grid-column: 1 / 4;
+grid-row: 1 / 3;
+}
+
+.destaques__secundario:nth-child(2) {
+  background: url('../img/pubg.jpg') center / cover no-repeat;
+  grid-column: 4 / 4;
+  grid-row: 1 / 1 ;
+}
+
+.destaques__secundario:nth-child(3) {
+  background: url('../img/MARVEL\ Future\ Revolution.jpg') center / cover no-repeat;
+  grid-column: 4 / 4;
+  grid-row: 2 / 2;
+}
+.destaques__secundario:nth-child(4){
+  background: url('../img/whatsapp.png') center / cover no-repeat;
+  grid-column: 4/4 ;
+  grid-row: 3/3;
+}
+
+.destaques__secundario:nth-child(5){
+  background: url('../img/Pokemon\ Unite.jpeg');
+  grid-column: 3/3 ;
+  grid-row: 3/3;
+}
+
+/* .destaques__secundario:nth-child(6) */
+
